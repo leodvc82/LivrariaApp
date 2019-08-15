@@ -29,7 +29,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-
 public class HomeFragment extends Fragment implements Callback<List<Livro>> {
 
     private RecyclerView recycle;
@@ -38,7 +37,6 @@ public class HomeFragment extends Fragment implements Callback<List<Livro>> {
     private LivroAdapter adapter;
     private ApiInterface apiInterface;
     ProgressBar progressBar;
-
 
     public HomeFragment() {
         // Required empty public constructor
@@ -144,7 +142,5 @@ public class HomeFragment extends Fragment implements Callback<List<Livro>> {
         //searchView.setOnQueryTextListener(queryTextListener);
         return super.onOptionsItemSelected(item);
     }
-
-
 
 }
